@@ -29,12 +29,13 @@ export function ArchiveFooter() {
         <p>
           <a
             className="footer-license"
-            href="https://creativecommons.org/publicdomain/zero/1.0/"
+            href="https://github.com/hopeugetherpes/Off-The-Record?tab=CC0-1.0-1-ov-file"
             target="_blank"
             rel="noreferrer"
           >
             CC0 - Public Domain
-          </a>
+          </a>{' '}
+          - Open Source
         </p>
       </div>
       <div className="footer-links">
@@ -42,6 +43,9 @@ export function ArchiveFooter() {
         <a href="/manifesto">Manifesto</a>
         <a href="/how-to">How to</a>
         <a href="/#faq">FAQ</a>
+        <a href="https://github.com/hopeugetherpes/Off-The-Record" target="_blank" rel="noreferrer">
+          GITHUB
+        </a>
       </div>
       <div className="footer-meta">
         <span className="fork-credit">
