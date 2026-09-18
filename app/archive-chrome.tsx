@@ -29,7 +29,7 @@ export function ArchiveFooter() {
         <p>
           <a
             className="footer-license"
-            href="https://github.com/hopeugetherpes/Off-The-Record?tab=CC0-1.0-1-ov-file"
+            href="https://off-the-record.anatole.co/?tab=CC0-1.0-1-ov-file"
             target="_blank"
             rel="noreferrer"
           >
@@ -43,7 +43,7 @@ export function ArchiveFooter() {
         <a href="/manifesto">Manifesto</a>
         <a href="/how-to">How to</a>
         <a href="/#faq">FAQ</a>
-        <a href="https://github.com/hopeugetherpes/Off-The-Record" target="_blank" rel="noreferrer">
+        <a href="https://off-the-record.anatole.co/" target="_blank" rel="noreferrer">
           GITHUB
         </a>
       </div>
