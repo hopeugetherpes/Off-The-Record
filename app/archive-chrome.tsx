@@ -51,6 +51,7 @@ export function ArchiveFooter() {
         <a href="/manifesto">Manifesto</a>
         <a href="/how-to">How to</a>
         <a href="/#faq">FAQ</a>
+        <a href="/privacy">Privacy</a>
         <a href="https://github.com/hopeugetherpes/Off-The-Record" target="_blank" rel="noreferrer">
           GITHUB
         </a>

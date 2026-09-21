@@ -1,5 +1,9 @@
 pmOnFail: ignore
 
+overrides:
+  baseline-browser-mapping: 2.11.25
+  browserslist: 4.28.7
+
 minimumReleaseAgeExclude:
   - '@next/*'
   - next

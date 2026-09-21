@@ -17,7 +17,7 @@ const steps = [
   ['Check laptop clearance', 'Test the angle and surrounding space so ports on both sides of different devices can reach it without strain.'],
   ['Orient the connector', 'Keep the exposed USB contacts clean and position the connector so visitors can identify the correct orientation.'],
   ['Finish the surface', 'Remove sharp edges, loose material and residue. The installation should be discreet, stable and safe to approach.'],
-  ['Document and submit', 'Take an overview, a medium-distance view and a close-up, then add the location and story to the database.'],
+  ['Document and submit', 'Take an overview, a medium-distance view and a close-up. Remove EXIF and GPS metadata, check backgrounds for identifying details, then submit the location and story.'],
 ]
 
 export default function HowToPage() {
@@ -60,6 +60,9 @@ export default function HowToPage() {
           <div><p className="eyebrow">Three photographs ready?</p><h2>Put it on the map.</h2></div>
           <a className="button button-dark" href="mailto:anatole@anatole.co?subject=Off%20The%20Record%20-%20Submission">Email a submission <span aria-hidden="true">↗</span></a>
         </div>
+        <p className="form-help">
+          Email reveals your sender address to the recipient and the mail providers involved. Read the <a className="text-link" href="/privacy">privacy notice</a> before submitting.
+        </p>
       </section>
       <ArchiveFooter />
     </main>

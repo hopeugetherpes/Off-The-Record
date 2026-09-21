@@ -47,7 +47,7 @@ export default function SubmitForm() {
 
       <fieldset>
         <legend>04 / Documentation</legend>
-        <p className="form-help">Prepare three square-friendly JPEG photographs, each no larger than 1 MB.</p>
+        <p className="form-help">Prepare three square-friendly JPEG photographs, each no larger than 1 MB. Remove EXIF and GPS metadata and check backgrounds for identifying details before sharing.</p>
         <div className="form-grid three-columns">
           <label>Overview<input name="overview" type="file" accept="image/jpeg" /></label>
           <label>Medium distance<input name="medium" type="file" accept="image/jpeg" /></label>
@@ -71,7 +71,7 @@ export default function SubmitForm() {
       </div>
       {reviewed && (
         <p className="form-result" role="status" aria-live="polite">
-          Draft checked locally. Nothing was uploaded or sent from this page.
+          Required fields checked locally. Nothing was uploaded, stored or sent from this page.
         </p>
       )}
     </form>

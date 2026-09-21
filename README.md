@@ -198,6 +198,8 @@ The current web application ships its archive data with the static site rather t
 
 The map is rendered with [`react-simple-maps`](https://github.com/zcreativelabs/react-simple-maps) and geographic data from [`world-atlas`](https://github.com/topojson/world-atlas).
 
+The application loads no analytics, advertising trackers, cookies or third-party resources at runtime. Vercel still receives the ordinary request metadata needed to host and protect the site; see the [privacy notice](https://off-the-record.anatole.co/privacy).
+
 ---
 
 # 🧰 Make your own drop
@@ -250,7 +252,7 @@ Take:
 * one medium-distance photograph;
 * one close-up.
 
-Then document the installation.
+Remove EXIF and GPS metadata, check the background for identifying details, then document the installation.
 
 ---
 
@@ -440,6 +442,8 @@ pnpm-lock.yaml
 
 and requires no application database or custom server configuration for the current static architecture.
 
+No environment variable or secret is required. The deployment also applies the security headers defined in `vercel.json`.
+
 ---
 
 # 📬 Submit a drop
@@ -448,7 +452,7 @@ Built one?
 
 Put it on the map.
 
-Send you submissions:
+Send your submissions:
 
 **[HERE](mailto:anatole@anatole.co?subject=Off%20The%20Record%20-%20Submission)**
 
@@ -469,6 +473,8 @@ Attach:
 1. an overview photograph;
 2. a medium-distance photograph;
 3. a close-up of the installation.
+
+Strip EXIF/GPS metadata and remove unintended personal details before sending. Email exposes your sender address and message metadata to the recipient and the mail providers involved.
 
 ---
 
