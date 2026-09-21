@@ -538,9 +538,7 @@ You may:
 * use it commercially;
 * use it without asking permission.
 
-Attribution is appreciated where it helps preserve project history, but no copyright permission is required under CC0.
-
-**Knowledge does not become more valuable by being hoarded.**
+Attribution is appreciated but not required (public domain).
 
 ---
 
