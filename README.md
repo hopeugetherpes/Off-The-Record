@@ -198,8 +198,6 @@ The current web application ships its archive data with the static site rather t
 
 The map is rendered with [`react-simple-maps`](https://github.com/zcreativelabs/react-simple-maps) and geographic data from [`world-atlas`](https://github.com/topojson/world-atlas).
 
-The application loads no analytics, advertising trackers, cookies or third-party resources at runtime. Vercel still receives the ordinary request metadata needed to host and protect the site; see the [privacy notice](https://off-the-record.anatole.co/privacy).
-
 ---
 
 # 🧰 Make your own drop
